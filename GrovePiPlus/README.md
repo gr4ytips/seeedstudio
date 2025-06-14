@@ -26,6 +26,27 @@ Using `PyQt5`, the app provides visual feedback from connected Grove sensors and
 
 ---
 
+### 🎨 User Interface Previews
+
+Dashboard Overview:
+![Dashboard](https://github.com/gr4ytips/seeedstudio/blob/main/GrovePiPlus/screens/dashboard.png)
+
+Environment Sensors Tab:
+![Environment Sensors](https://github.com/gr4ytips/seeedstudio/blob/main/GrovePiPlus/screens/tab_environment_senors.png)
+
+Analog Sensors Tab:
+![Analog Sensors](https://github.com/gr4ytips/seeedstudio/blob/main/GrovePiPlus/screens/tab_analog_sensors.png)
+
+Interactive Sensors Tab:
+![Interactive Sensors](https://github.com/gr4ytips/seeedstudio/blob/main/GrovePiPlus/screens/tab_interactive_sensors.png)
+
+Weather Tabs:
+![Weather Tab 1](https://github.com/gr4ytips/seeedstudio/blob/main/GrovePiPlus/screens/tab_weather_1.png)
+![Weather Tab 2](https://github.com/gr4ytips/seeedstudio/blob/main/GrovePiPlus/screens/tab_weather_2.png)
+![Weather Tab 3](https://github.com/gr4ytips/seeedstudio/blob/main/GrovePiPlus/screens/tab_weather_3.png)
+
+---
+
 ### 🔧 Hardware Requirements
 
 - Raspberry Pi 3B or 4B (Recommended)
