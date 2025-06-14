@@ -104,11 +104,3 @@ This work is licensed under a
 [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
 
 [![CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc/4.0/)
-
----
-
-### 📢 Blog Article Summary
-
-> **GrovePi+ Sensor Dashboard on Raspberry Pi: A Beginner's IoT GUI**
->
-> Learn how to create a responsive GUI using PyQt5 to visualize and control Grove sensors connected to Raspberry Pi. This open-source dashboard, developed for educational use, bridges the gap between low-level GPIO handling and user-friendly interfaces. Ideal for classrooms, STEM workshops, or hobby projects.
