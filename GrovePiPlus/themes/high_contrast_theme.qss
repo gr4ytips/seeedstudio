@@ -1,0 +1,86 @@
+QMainWindow {
+    background-color: #000000; /* Black */
+    color: #FFFF00; /* Yellow */
+}
+QTabWidget::pane {
+    border: 2px solid #FF00FF; /* Magenta border */
+    background: #111111;
+    border-radius: 0px; /* Sharp corners */
+}
+QTabBar::tab {
+    background: #333333;
+    color: #00FF00; /* Green */
+    border: 2px solid #FF00FF;
+    border-bottom-color: #333333;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    padding: 6px 12px;
+}
+QTabBar::tab:selected {
+    background: #000000;
+    border-color: #FF00FF;
+    border-bottom-color: #000000;
+}
+QTabBar::tab:hover {
+    background: #222222;
+}
+QLabel {
+    color: #FFFF00;
+}
+QGroupBox {
+    border: 2px solid #00FFFF; /* Cyan */
+    border-radius: 0px;
+    margin-top: 10px;
+    background-color: #000000;
+}
+QGroupBox::title {
+    color: #FF0000; /* Red */
+}
+QPushButton {
+    background-color: #FF00FF; /* Magenta */
+    color: white;
+    border-radius: 0px;
+    padding: 8px 15px;
+}
+QPushButton:hover {
+    background-color: #CC00CC;
+}
+QLineEdit {
+    background-color: #222222;
+    color: #FFFF00;
+    border: 2px solid #FF00FF;
+    border-radius: 0px;
+    padding: 4px;
+}
+QComboBox {
+    background-color: #222222;
+    color: #FFFF00;
+    border: 2px solid #FF00FF;
+    border-radius: 0px;
+    padding: 4px;
+}
+QComboBox::drop-down {
+    border: 0px;
+}
+QComboBox::down-arrow {
+    image: url(icons/arrow_down_light.png); /* Assume light arrow is ok */
+    width: 16px;
+    height: 16px;
+}
+QSlider::groove:horizontal {
+    border: 2px solid #FF00FF;
+    height: 8px;
+    border-radius: 0px;
+    background: #333;
+}
+QSlider::handle:horizontal {
+    background: #FFFF00;
+    border: 2px solid #FF00FF;
+    width: 20px;
+    margin: -6px 0;
+    border-radius: 0px;
+}
+QSlider::sub-page:horizontal {
+    background: #FFFF00;
+    border-radius: 0px;
+}

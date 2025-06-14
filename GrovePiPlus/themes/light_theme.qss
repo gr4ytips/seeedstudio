@@ -1,0 +1,88 @@
+/* themes/light_theme.qss */
+
+QMainWindow {
+    background-color: #f0f0f0;
+    color: #333333;
+}
+QTabWidget::pane {
+    border: 1px solid #bbb;
+    background: #ffffff;
+    border-radius: 8px;
+}
+QTabBar::tab {
+    background: #e0e0e0;
+    color: #333333;
+    border: 1px solid #bbb;
+    border-bottom-color: #e0e0e0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 6px 12px;
+}
+QTabBar::tab:selected {
+    background: #ffffff;
+    border-color: #bbb;
+    border-bottom-color: #ffffff;
+}
+QTabBar::tab:hover {
+    background: #d0d0d0;
+}
+QLabel {
+    color: #333333;
+}
+QGroupBox {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 10px;
+    background-color: #ffffff;
+}
+QGroupBox::title {
+    color: #007bff; /* Blue */
+}
+QPushButton {
+    background-color: #007bff; /* Blue */
+    color: white;
+    border-radius: 5px;
+    padding: 8px 15px;
+}
+QPushButton:hover {
+    background-color: #0056b3;
+}
+QLineEdit {
+    background-color: #f8f8f8;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 4px;
+}
+QComboBox {
+    background-color: #f8f8f8;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 4px;
+}
+QComboBox::drop-down {
+    border: 0px;
+}
+QComboBox::down-arrow {
+    image: url(icons/arrow_down_dark.png); /* Placeholder, ensure you have a dark arrow icon */
+    width: 16px;
+    height: 16px;
+}
+QSlider::groove:horizontal {
+    border: 1px solid #ccc;
+    height: 8px;
+    border-radius: 4px;
+    background: #eee;
+}
+QSlider::handle:horizontal {
+    background: #007bff;
+    border: 1px solid #ccc;
+    width: 20px;
+    margin: -6px 0;
+    border-radius: 10px;
+}
+QSlider::sub-page:horizontal {
+    background: #007bff;
+    border-radius: 4px;
+}
